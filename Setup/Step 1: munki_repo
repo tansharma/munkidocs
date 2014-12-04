@@ -1,9 +1,13 @@
-# The following process will help you setup your 'munki_repo' drirectory. The repo contains 4 primary sub-directories that include the catalogs, manifests, packages and associated package information. Along with this, as you progress in the setup process you'll find that icons, client resources and enroll settings are also housed with the repo. 
+# The following process will help you setup your 'munki_repo' drirectory. The repo contains 4 primary sub-directories that 
+# include the catalogs, manifests, packages and associated package information. Along with this, as you progress in the setup 
+# process you'll find that icons, client resources and enroll settings are also housed with the repo. 
 
-Note : Our setup has a volume called 'LocalDataHD' and thats where I shall be hosting 'munki_repo'. If you do use the notes below, please make sure you substitute your Volume name in place of 'LocalDataHD'
+Note : Our setup has a volume called 'LocalDataHD' and thats where I shall be hosting 'munki_repo'. If you do use the notes below,
+       please make sure you substitute your Volume name in place of 'LocalDataHD'
 
 # Creating the munki_repo directory
-# You can create the directory and associated sub-directories in 1 of 2 ways. Either use the terminal and follow the instructions below, or run the 'munki-folder-setup' script from the scripts folder. 
+# You can create the directory and associated sub-directories in 1 of 2 ways. Either use the terminal and follow the instructions
+# below, or run the 'munki-folder-setup' script from the scripts folder. 
 
 # If you plan to use the script:
   1. Download the script
