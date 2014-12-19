@@ -1,0 +1,60 @@
+# MunkiWebAdmin allows you to manage your catalogs and manifests online, as well as pull inventory reports about client
+# machines and associated software. 
+
+# NOTE: When following the instructions below, use the same Terminal window unless a new window is specified in the tasks.
+
+  # Setting up Munki Web Admin
+    1. Launch Termina and become ROOT
+    2. Run 'virtualenv.sh' script from the Scripts folder
+    # When the script finishes, you will be in the munkiwebadmin_env/munkiwebadmin directory
+      a. Copy the 'settings.py' from the Scripts folder into this directory
+      b. In your initial Terminal window run the following command: python manage.py syncdb
+      
+      # As a database doesn't exist yet, you'll be asked if you would like to create one. type yes and hit return. 
+      # You will now see a prompt to create a default admin user.
+      1. Username (be default is user executing commands): <change to desired username>
+			2. Email: <specify an email for the account>
+			3. Password: <chosen passowrd>
+			4. Password: <confirm password>
+      # At this point your superuser account will be created. You will need this account name and password to log in to
+			# the web app. 
+			
+		# Create a non-admin service account and group
+			1. Open System Preferences
+			2. Create a standard user called 'munkiwebadmin'
+			# Go back to the original terminal window and run the usersettings script 
+			3. ./usersettings.sh
+		
+		# Start the web application
+	  	# In the same Terminal window fo the following:
+			1. sudo su
+			2. su munkiwebadmin
+			# Make sure you are in the correct directory
+			3. pwd
+			# Your directory should read: /Users/Shared/munkiwebadmin_env/munkiwebadmin
+			# If you are not in the correct directory 'cd' into it and start MunkiWebAdmin
+			4. python manage.py runwsgiserver port=8000 host=0.0.0.0
+			
+		# Test your setup
+			1. Open Safari 
+			2. Navigate to: http://127.0.0.1:8000
+			# If you have configured the above correctly you should see a MunkiWebAdmin login page
+			3. Login with the username and password you chose earlier 
+	
+			# Your MunkiWebServer is now up and running. However if you terminate the terminal window your server session will 
+			# end. You could either leave the terminal window running or, follow later instructions to the server run 
+			# persistently.	
+		
+	# Running MunkiWebAdmin on startup
+    # You can have MunkiWebAdmin run on server starup by creating a Launch Daemon plist. The code below, illustrates the 
+    # function of the plist. You can find the plist configured for our MunkiWebAdmin server in the Server Setup folder. 
+
+    	1. Copy the 'com.googlecode.munki.munkiwebadmin.plist' file from the Setup folder. 
+	    2. Move the file to /Library/LaunchDaemons
+      # Edit  ownership to root:wheel with permissions 644 (rw-r-r)
+	    # To set permissions:
+	      1. Launch Terminal
+		    2. cd /Library/LaunchDaemons
+		    3. chown -R root:wheel com.googlecode.munki.munkiwebadmin.plist
+		    # Check the permission setting match those of existing files. 
+		    4. ls -la
