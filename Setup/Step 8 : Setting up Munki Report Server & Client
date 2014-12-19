@@ -1,0 +1,41 @@
+# A bit like MunkiWebAdmin, Munki Report gives you an overview of your client machines and the software deployed to them. 
+# It also displays information from the System Profiler on your client machine, providing the administrator with a snapshot
+# of the state of the machine. 
+
+# Note: For my setup, I'm deploying the munki report client package as a forced install on all clients.
+
+  # Setting up Munki Report Server
+    1. In your web browser navigate to https://github.com/munkireport/munkireport-php
+	  2. Click 'Download zip'
+	  3. Extract the contents of the zip folder
+	  4. Transfer all the contents of the zip folder to '/Library/Server/Web/Data/Sites/Default'
+	  5. Create a copy of 'config_default.php' and call the new file 'config.php'
+	  6. Edit the 'config.php' file as needed
+	
+	# Setting permissions
+		1. Launch terminal and become ROOT
+		2.  sudo chown -R _www /Library/Server/Web/Data/Sites/Default/app/db
+	
+	# Configuring your Munki Report Account
+		1. Launch your browser and navigate to 'http://127.0.0.1'
+		2. Create a username and password form Munki Report
+		3. Click Generate
+		4. Copy the 'generated hash' line (staring with $auth_config)
+		5. Open 'config.php'
+		6. Paste the line you copied in step 4 in the file 
+		7. Reload your browser
+		8. Enter the username and password you created in step 2 and click signin
+	
+	# Munki Report Client Setup
+		1. Launch Terminal
+		2. curl -s http://<your server DNS name>/index.php?/install/plist -o MunkiReport.plist
+		3. Type Open
+		4. From the window that opens, copy 'MunkiReport.plist' and move it to your 'pkginfo' folder
+
+    # Build your catalog & deploy Munki Report
+			1. Launch Terminal
+			2. /usr/local/munki/makecatalogs
+			3. Add MunkiReport to the Catalog/Manifest your clients will use. 
+
+			# Once your clients have installed the package, they will start reporting to Munki Report every time managed software 
+			# update runs.
