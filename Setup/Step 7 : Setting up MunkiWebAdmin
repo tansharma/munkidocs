@@ -57,4 +57,4 @@
 		    2. cd /Library/LaunchDaemons
 		    3. chown -R root:wheel com.googlecode.munki.munkiwebadmin.plist
 		    # Check the permission setting match those of existing files. 
-		    4. ls -la
+		    4. ls -la 
