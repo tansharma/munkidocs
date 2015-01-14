@@ -17,4 +17,4 @@
       3. In the panel that opens, change 'On Startup' setting to 'Open Previous Repository'
       
 # Your GUI is now configured. Once you import packages to your munki_repo you will see them populate your GUI. Then you can
-# add/edit catalogs and manifests based on client requirements.
+# add/edit catalogs and manifests based on client requirements. 
