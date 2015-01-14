@@ -8,5 +8,4 @@
   # Once ROOT
     a. sudo ln -s /<your-chosen-volume>/Munki/munki_repo /Library/Server/Web/Data/Sites/Default
   
-# Your symbolic link has now been created. You can verify this either by navigating to the folder or via the server app.  
-  
+# Your symbolic link has now been created. You can verify this either by navigating to the folder or via the server app.   
