@@ -36,4 +36,4 @@
 # AutoPkgr will now check for your selected apps and will download the required packages. Once this process is complete, you 
 # will be able to see your packages using the GUI for Munki Admin. If they dont show straightaway, click the reload button on 
 # the top. You've now downloaded your first set of packages and populated your munki_repo. AutoPkgr will update these packages
-# on the time cycle you've set.
+# on the time cycle you've set. 
