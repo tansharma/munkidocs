@@ -36,4 +36,4 @@ Note : Our setup has a volume called 'LocalDataHD' and thats where I shall be ho
     # Modify permissions associated with 'munki_repo'
     i. chmod -R a+rX /<your-chosen-volume>/Munki/munki_repo
     
-# Your 'munki_repo' directory has now been setup. 
+# Your 'munki_repo' directory has now been setup.  
