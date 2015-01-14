@@ -31,6 +31,4 @@
 		  1. cd /usr/local/munki
 		  2. ./iconimport.py /<your-munki_repo-folder-location>
 		    # E.g: ./iconimport.py /Volumes/LocalDataHD/Munki/munki_repo
-		    
-		    
-		    
+
