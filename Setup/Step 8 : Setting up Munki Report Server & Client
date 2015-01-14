@@ -38,4 +38,4 @@
 			3. Add MunkiReport to the Catalog/Manifest your clients will use. 
 
 			# Once your clients have installed the package, they will start reporting to Munki Report every time managed software 
-			# update runs.
+			# update runs. 
