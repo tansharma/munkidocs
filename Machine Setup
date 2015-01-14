@@ -34,6 +34,3 @@
   > To achieve this I used 'CreateUserPkg' which can be downloaded from : http://magervalp.github.com/CreateUserPkg/
   > Overview and security notes about 'CreateUserPkg' can be found here:  https://github.com/MagerValp/CreateUserPkg
     # Note: If you do use 'CreateUserPkg', ensure that the UID for your account does not conflict with other UID's
-    
-  
-  
