@@ -39,4 +39,4 @@
       # Verifying munkiimport setting - If you used the script and want to confirm that the settings work, follow step 1 & 2 
       # of the 'Configuring munkiimport using Terminal' section. The settings you specified in the script will now appear as 
       # the default settings. You could either change them at this point (if required) or hit return at each option to stay 
-      # with current settings. 
+      # with current settings.  
