@@ -1,7 +1,7 @@
 # The following steps will help you setup Munki Admin to work with your munki_repo. At the time of writing, the latest version
 # of Munki Tools was v 2.0.1
 
-# Setup Munki Admin
+# Setup Munki 
   1. Open Safari and download MunkiTools (available here: https://github.com/munki/munki/releases/tag/v2.0.10)
   2. Navigate to your 'Downloads' folder and run the .pkg file
   
