@@ -16,6 +16,3 @@ How does the documentation work?
 
 Does this replace other documentation out there?
 > NO (and i can't stress this enough). This documentation will only aid you with your initial setup. To get a better understanding of how Munki and associated tools mentioned work, I recommend you spend time reading the origional text. Links to resources are provided in each setp.
-
-
-
