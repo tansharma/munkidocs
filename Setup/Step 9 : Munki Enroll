@@ -32,4 +32,4 @@
       2. Open 'enroll.php' using your favourite editor
       3. On line 44 (under 'Add Parent Manifest' comment): change '$identifier' to '<your-common-applications-manifest-name>' 
       
-  # This has been working well for me and my client machines respond as expected. 
+  # This has been working well for me and my client machines respond as expected.
