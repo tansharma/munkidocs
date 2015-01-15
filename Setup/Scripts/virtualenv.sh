@@ -36,4 +36,4 @@ echo "Creating new settings file"
 cp settings_template.py settings.py
 
 echo "Process complete. Ready to exit"
-exit 0
+exit 0 
