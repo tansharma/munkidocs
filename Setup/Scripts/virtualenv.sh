@@ -1,5 +1,10 @@
 #!/bin/sh
 
+# Install and create a virtual environment
+sudo easy_install virtualenv
+cd /Users/Shared
+virtualenv munkiwebadmin_env
+
 # Setting up Django
 echo "Navigating to your virtual environment"
 cd /Users/Shared/munkiwebadmin_env
