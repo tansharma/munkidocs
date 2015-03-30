@@ -1,5 +1,5 @@
 # Now that your 'munki_repo' directory has been setup, you need to create a symbolic link between your web server's default
-# loaction and your repo location. By default the web server location is: /Library/Server/Web/Data/Sites/Default
+# location and your repo location. By default the web server location is: /Library/Server/Web/Data/Sites/Default
 
 # Become ROOT 
   1. Launch Terminal
