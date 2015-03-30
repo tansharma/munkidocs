@@ -26,7 +26,7 @@
 			3. ./usersettings.sh
 		
 		# Start the web application
-	  	# In the same Terminal window fo the following:
+	  	# In the same Terminal window do the following:
 			1. sudo su
 			2. su munkiwebadmin
 			# Make sure you are in the correct directory
