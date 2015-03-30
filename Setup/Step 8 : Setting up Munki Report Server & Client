@@ -20,7 +20,7 @@
 		1. Launch your browser and navigate to 'http://127.0.0.1'
 		2. Create a username and password form Munki Report
 		3. Click Generate
-		4. Copy the 'generated hash' line (staring with $auth_config)
+		4. Copy the 'generated hash' line (starting with $auth_config)
 		5. Open 'config.php'
 		6. Paste the line you copied in step 4 in the file 
 		7. Reload your browser
