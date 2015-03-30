@@ -1,4 +1,4 @@
-# The following process will help you setup your 'munki_repo' drirectory. The repo contains 4 primary sub-directories that 
+# The following process will help you setup your 'munki_repo' directory. The repo contains 4 primary sub-directories that 
 # include the catalogs, manifests, packages and associated package information. Along with this, as you progress in the setup 
 # process you'll find that icons, client resources and enroll settings are also housed with the repo. 
 
