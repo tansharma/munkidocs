@@ -3,9 +3,9 @@
 
 # Origional documentation for Munki Enroll can be found here: https://github.com/edingc/munki-enroll
 
-  # How my currnet setup works
-    # To get munki-enroll going i've used the documentation available at the site listed above. My setup is no different form 
-    # whats listed on the site, however I did have 1 issue the first time I set it up which has since been resolved. Only the 
+  # How my current setup works
+    # To get munki-enroll going i've used the documentation available at the site listed above. My setup is no different from 
+    # what's listed on the site, however I did have 1 issue the first time I set it up which has since been resolved. Only the 
     # issue and solution are documented below. 
     
   # Issue I faced with munki-enroll
