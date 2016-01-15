@@ -1,21 +1,5 @@
-# This section is only applicable to our current work environment. 
-# For the purpose of this setup we are using a clean machine with fresh OS install. The machine is puppet managed. 
+For out setup we're using a Mac Mini with running OSX 10.10.5. The OSX install and configration for our machine is based on a DeployStudi workflow and puppet manifest.
 
-# Basic Machine Setup
-	1. Create a NetReg entry for your chosen server machine.
-	2. Within Netreg, set the following parameters
- 		a. install parameters:role=darwin_workstation; 
-		b. user:<admin username>		
-	3. Once the entry is created, connect the machine to the network.	
-	4. Power the machine and press the 'alt' key
-	5. From the drives listed choose 'puppet' 
-
-# If 'puppet' is not listed hold down the 'N' key for network drive scan
-	6. Once booted from puppet, you will see a deploy studio screen
-	7. Enter Admin credentials and log in
-	8. Choose the 'New Desktop' workflow
-	9. Leave machine powered on to let deployment finish
-	
 # Setting up the Server App.
   # Our setup uses v 3.2.2. At the time of writing this version is no longer available from the app store. We hold a local copy of the App on an internal package share.
   1. Access the Server App package from the package share 
