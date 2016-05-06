@@ -28,10 +28,10 @@
 		4. Choose existing icon for package '<your-chosen-package>'
 		5. From the pop-up window select an icon and click okay
 
-	# Importing icons in the future.
-	# As you have already stored the 'iconimport.py' file in the correct location,
-  # icon imports for future software can be done by launching Terminal and running
-  # the following commands.
+# Importing icons in the future.
+> As you have already stored the 'iconimport.py' file in the correct location,
+> icon imports for future software can be done by launching Terminal and running
+> the following commands.
 		1. cd /usr/local/munki
 		2. ./iconimport.py /<your-munki_repo-folder-location>
 		# E.g: ./iconimport.py /Volumes/LocalDataHD/Munki/munki_repo
