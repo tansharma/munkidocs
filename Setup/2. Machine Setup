@@ -1,20 +1,25 @@
-For out setup we're using a Mac Mini with running OSX 10.10.5. The OSX install and configration for our machine is based on a DeployStudi workflow and puppet manifest.
+# --- Basic Machine Setup --- #
 
-# Setting up the Server App.
-  # Our setup uses v 3.2.2. At the time of writing this version is no longer available from the app store. We hold a local copy of the App on an internal package share.
-  1. Access the Server App package from the package share 
-	2. Mount the package on your server machine
-	3. Move Server App to /Applications
+# This setup uses a Mac Mini running OS X 10.10.5 as our server machine and
+# utilizes the Apple Server App as part of the installation. OS X installation
+# and configuration is achieved using a combination of DeployStudio & Puppet
+
+# Setting up the Server App on your machine.
+  1. Download the Server App form the Mac App Store.
 	4. Launch Server App
-		a. Click on Websites on bottom left column
+		a. Click on Websites in the bottom left column
 		b. Enable web sharing by clicking 'ON' button
 		c. Enable php
 	5. Quit Server App
 
-# Now that the server app has been setup, i found it was best to run the setup process under a newly created admin user called 'munki'. This is not necessary, hoewver, if you do chose to do this it could be done in 1 of 2 ways.
-  # Method 1: Create a new user manually by going to 'System Preferences'
-  
-  # Method 2: Create a new user by deploying a user package as part of your OS deployment process. 
-  > To achieve this I used 'CreateUserPkg' which can be downloaded from : http://magervalp.github.com/CreateUserPkg/
-  > Overview and security notes about 'CreateUserPkg' can be found here:  https://github.com/MagerValp/CreateUserPkg
-    # Note: If you do use 'CreateUserPkg', ensure that the UID for your account does not conflict with other UID's
+# Your Server App has now been setup. For the remainder of the installation, I
+# chose to create a new admin user called _munki_. This step is not mandatory,
+# however should you choose to do this you can go about it in one of two ways.
+
+Method 1: Create a new user manually via 'System Preferences'
+Method 2: Create a new user by deploying a user package within your OS deployment process.
+
+# I used 'CreateUserPkg' <http://magervalp.github.com/CreateUserPkg/> and attached
+# the user package to our OS deployment process.
+
+# --- x --- #  
