@@ -16,16 +16,28 @@ Does this replace other documentation out there?
 > There is a large community of users with unique setups and environments who rely on tools mentioned within this document. To get a better understanding of how these tools work, I recommend you spend time reading the original text(s) and wiki's or join the community groups. Links to resources are provided in each step.
 
 You can find out more information about the topics covered with this document by visiting the following links:
- Origional Munki documentation  : https://github.com/munki/munki/wiki \n
- Munki Demonstration Setup      : https://github.com/munki/munki/wiki/Demonstration-Setup
+Origional Munki documentation  : https://github.com/munki/munki/wiki 
+
+Munki Demonstration Setup      : https://github.com/munki/munki/wiki/Demonstration-Setup
+
    Munki latest release         : https://github.com/munki/munki/releases
-> MunkiAdmin GitHub Page         : https://github.com/hjuutilainen/munkiadmin
-  > MunkiAdmin latest release    : https://github.com/hjuutilainen/munkiadmin/releases/
-> Information about AutoPkg      : https://github.com/autopkg/autopkg
-  > Latest release for AutoPkg   : https://github.com/autopkg/autopkg/releases/latest
-> Information about AutoPkgr     : https://github.com/lindegroup/autopkgr
-  > Latest release for AutoPkgr  : https://github.com/lindegroup/autopkgr/releases/latest
-> MunkiWebAdmin Documentation    : https://github.com/munki/munkiwebadmin/wiki
-> Munki Report GitHub Repo       : https://github.com/munkireport/munkireport-php
-> Munki Report Install Manual    : https://github.com/munkireport/munkireport-php/blob/master/docs/setup.md
-> munki-enroll GitHub Repo       : https://github.com/edingc/munki-enroll
+
+ MunkiAdmin GitHub Page         : https://github.com/hjuutilainen/munkiadmin
+
+   MunkiAdmin latest release    : https://github.com/hjuutilainen/munkiadmin/releases/
+
+ Information about AutoPkg      : https://github.com/autopkg/autopkg
+
+   Latest release for AutoPkg   : https://github.com/autopkg/autopkg/releases/latest
+
+ Information about AutoPkgr     : https://github.com/lindegroup/autopkgr
+
+   Latest release for AutoPkgr  : https://github.com/lindegroup/autopkgr/releases/latest
+
+ MunkiWebAdmin Documentation    : https://github.com/munki/munkiwebadmin/wiki
+
+ Munki Report GitHub Repo       : https://github.com/munkireport/munkireport-php
+
+ Munki Report Install Manual    : https://github.com/munkireport/munkireport-php/blob/master/docs/setup.md
+
+ munki-enroll GitHub Repo       : https://github.com/edingc/munki-enroll
