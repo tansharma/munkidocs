@@ -1,39 +1,34 @@
-# The following process will help you setup your 'munki_repo' directory. The repo contains 4 primary sub-directories that 
-# include the catalogs, manifests, packages and associated package information. Along with this, as you progress in the setup 
-# process you'll find that icons, client resources and enroll settings are also housed with the repo. 
-
-Note : Our setup has a volume called 'LocalDataHD' and thats where I shall be hosting 'munki_repo'. If you do use the notes below,
-       please make sure you substitute your Volume name in place of 'LocalDataHD'
+# The following process will help you setup your 'munki_repo' and link it to your server. 
+# The repo contains 4 primary sub-directories that include the catalogs, manifests,
+# packages and associated package information. Along with this, as you progress in the setup
+# process you'll find that icons, client resources and enroll settings are also housed with the repo.
 
 # Creating the munki_repo directory
-# You can create the directory and associated sub-directories in 1 of 2 ways. Either use the terminal and follow the instructions
-# below, or run the 'munki-folder-setup' script from the scripts folder. 
 
-# If you plan to use the script:
-  1. Download the script
-  2. Modify the 'Volume' location (see note above) using your prefered text editor
-  3. Save the file
-  4. Launch Terminal 
-    # Run the script: 
-    a: Navigate to script location
-    b: ./munki-folder-setup.sh  
-# Your 'munki_repo' directory has now been setup.   
-  
 # To create the directory manually:
-  # Navigate to your chosen Volume
-  1. Launch Terminal 
-  2. cd /Volumes/LocalDataHD
-    # Create a directory called 'Munki' and then a sub-directory called 'munki_repo'
+  1. Launch Terminal
+  2. Navigate to your desired volume: cd /Volumes/<your-volume>
+  # Create a directory called 'Munki' and then a sub-directory called 'munki_repo'
     1. mkdir Munki
     2. mkdir Munki/munki_repo
-    
+
     # Create the 4 primary sub-directories within munki_repo
     a. mkdir Munki/munki_repo/catalogs
     b. mkdir Munki/munki_repo/manifests
     c. mkdir Munki/munki_repo/pkgs
     d. mkdir Munki/munki_repo/pkgsinfo
-    
+
     # Modify permissions associated with 'munki_repo'
-    i. chmod -R a+rX /<your-chosen-volume>/Munki/munki_repo
-    
-# Your 'munki_repo' directory has now been setup.  
+    i. chmod -R a+rX /<your-volume>/Munki/munki_repo
+
+# Your 'munki_repo' directory has now been setup.
+
+# Now that your 'munki_repo' directory has been setup, you need to create a symbolic link
+# between your web server's default location and your repo location.
+# By default the web server location is: /Library/Server/Web/Data/Sites/Default
+
+# Launch Terminal and become _root_
+a. sudo ln -s /<your-volume>/Munki/munki_repo /Library/Server/Web/Data/Sites/Default
+
+# Your symbolic link has now been created. You can verify this either by navigating
+# to the folder or via the server app.
