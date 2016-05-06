@@ -1,4 +1,4 @@
-# --- Basic Machine Setup --- #
+# --- Basic OS X Machine Setup --- #
 
 # This setup uses a Mac Mini running OS X 10.10.5 as our server machine and
 # utilizes the Apple Server App as part of the installation. OS X installation
@@ -22,4 +22,4 @@ Method 2: Create a new user by deploying a user package within your OS deploymen
 # I used 'CreateUserPkg' <http://magervalp.github.com/CreateUserPkg/> and attached
 # the user package to our OS deployment process.
 
-# --- x --- #  
+# --- x --- #
