@@ -20,13 +20,14 @@ Does this replace other documentation out there?
 I've gone through the steps but it still doesn't work?
 > You might want to consider making use of the documentation below.
 
-* munki: https://github.com/munki/munki/wiki
-* munkiadmin: https://github.com/hjuutilainen/munkiadmin
-* munkiwebadmin (MWA1): https://github.com/munki/munkiwebadmin/wiki
-* munkireport-php: https://github.com/munkireport/munkireport-php
-* munki-enroll: https://github.com/edingc/munki-enroll
-* autopkg: https://github.com/autopkg/autopkg
-* autopkgr: https://github.com/lindegroup/autopkgr
+* Documentation
+  * munki: https://github.com/munki/munki/wiki
+  * munkiadmin: https://github.com/hjuutilainen/munkiadmin
+  * munkiwebadmin (MWA1): https://github.com/munki/munkiwebadmin/wiki
+  * munkireport-php: https://github.com/munkireport/munkireport-php
+  * munki-enroll: https://github.com/edingc/munki-enroll
+  * autopkg: https://github.com/autopkg/autopkg
+  * autopkgr: https://github.com/lindegroup/autopkgr
 
 * Latest Releases
   * munki: https://github.com/munki/munki/releases
