@@ -24,9 +24,9 @@ I've gone through the steps but it still doesnt work?
 * munkiadmin: https://github.com/hjuutilainen/munkiadmin
 * munkiwebadmin (MWA1): https://github.com/munki/munkiwebadmin/wiki
 * munkireport-php: https://github.com/munkireport/munkireport-php
+* munki-enroll: https://github.com/edingc/munki-enroll
 * autopkg: https://github.com/autopkg/autopkg
 * autopkgr: https://github.com/lindegroup/autopkgr
-* munki-enroll: https://github.com/edingc/munki-enroll
 
 * Latest Releases
  * Munki: https://github.com/munki/munki/releases
