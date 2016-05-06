@@ -10,23 +10,31 @@ Who is this documentation for?
 
 How does the documentation work?
 > The setup process is divided into series of steps. Each step provides a basic overview of what needs to be done and how the end result would be achieved. You can then either run scripts associated with a given section, or write them yourself based on your setup. 
+> For proficient users the documentation might appear to be quite basic in its structure, however this was written when I was
+just starting out as a Mac admin. The documentation here is based on my _initial_ setup experience and illustrates a quick way to get services up and running for a beginner.
 
 Does this replace other documentation out there?
 > NO (and I can't stress this enough). This documentation will only assist you with a basic setup focused around _munki_ and associated tools that I use in my environment. 
-> There is a large community of users with unique setups and environments who rely on tools mentioned within this document. To get a better understanding of how these tools work, I recommend you spend time reading the original text(s) and wiki's or join the community groups. Links to resources are provided in each step.
+> There is a large community of users with unique setups and environments who rely on tools mentioned within this document. To get a better understanding of how these tools work, I recommend you spend time reading the original text(s) and wiki's or join the community groups. 
 
-You can find out more information about the topics covered with this document by visiting the following links:
+I've gone through the steps but it still doesnt work? 
+> You might want to consider making use of the documentation below. 
 
-* Munki Documentation			 : https://github.com/munki/munki/wiki 
-* Munki Demonstration Setup      : https://github.com/munki/munki/wiki/Demonstration-Setup
-  * Munki latest release         : https://github.com/munki/munki/releases
-* MunkiAdmin GitHub Page         : https://github.com/hjuutilainen/munkiadmin
-  * MunkiAdmin latest release    : https://github.com/hjuutilainen/munkiadmin/releases/
-* AutoPkg      					 : https://github.com/autopkg/autopkg
-  * AutoPkg latest release   	 : https://github.com/autopkg/autopkg/releases/latest
-* AutoPkgr     					 : https://github.com/lindegroup/autopkgr
-  * AutoPkgr latest release  	 : https://github.com/lindegroup/autopkgr/releases/latest
-* MunkiWebAdmin Documentation    : https://github.com/munki/munkiwebadmin/wiki
-* Munki Report GitHub Repo       : https://github.com/munkireport/munkireport-php
-  * Munki Report Install Manual  : https://github.com/munkireport/munkireport-php/blob/master/docs/setup.md
-* munki-enroll GitHub Repo       : https://github.com/edingc/munki-enroll
+* munki: https://github.com/munki/munki/wiki 
+* munkiadmin: https://github.com/hjuutilainen/munkiadmin
+* munkiwebadmin (MWA1): https://github.com/munki/munkiwebadmin/wiki
+* munkireport-php: https://github.com/munkireport/munkireport-php
+* autopkg: https://github.com/autopkg/autopkg
+* autopkgr: https://github.com/lindegroup/autopkgr
+* munki-enroll: https://github.com/edingc/munki-enroll
+
+* Latest Releases
+ * Munki: https://github.com/munki/munki/releases
+ * munkiadmin: https://github.com/hjuutilainen/munkiadmin/releases/
+ * autopkg: https://github.com/autopkg/autopkg/releases/latest
+ * autopkgr: https://github.com/lindegroup/autopkgr/releases/latest
+
+* Demo Setups
+ * munki Demonstration Setup: https://github.com/munki/munki/wiki/Demonstration-Setup
+ * munkireport-PHP Install Manual  : https://github.com/munkireport/munkireport-php/blob/master/docs/setup.md
+
