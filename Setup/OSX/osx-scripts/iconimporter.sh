@@ -11,6 +11,6 @@ chmod +x /usr/local/munki/iconimporter.py
 
 # Navigate to munki directory and run icon importer
 cd /usr/local/munki
-./iconimporter.py /Volumes/LocalDataHD/Munki/munki_repo
+./iconimporter.py /Volumes/<your_volume_name>/Munki/munki_repo
 
 exit 0

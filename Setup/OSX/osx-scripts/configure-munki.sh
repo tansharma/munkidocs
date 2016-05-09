@@ -6,7 +6,7 @@
 defaults write com.googlecode.munki.munkiimport editor TextWrangler.app
 
 # Set your default repo location
-defaults write com.googlecode.munki.munkiimport repo_path /Volumes/LocalDataHD/Munki/munki_repo
+defaults write com.googlecode.munki.munkiimport repo_path /Volumes/<your_volume_name>/Munki/munki_repo
 
 # Set your default pkginfo extension to .plist
 defaults write com.googlecode.munki.munkiimport pkginfo_extension .plist

@@ -13,7 +13,7 @@ chgrp -R munki /Users/Shared/munkiwebadmin_env
 chmod -R g+rw /Users/Shared/munkiwebadmin_env
 
 # Assign group read/write access to your munki repo
-chgrp -R munki /Volumes/LocalDataHD/Munki/munki_repo
-chmod -R g+rw  /Volumes/LocalDataHD/Munki/munki_repo
+chgrp -R munki /Volumes/<your_volume_name>/Munki/munki_repo
+chmod -R g+rw  /Volumes/<your_volume_name>/Munki/munki_repo
 
 exit 0
