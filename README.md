@@ -21,20 +21,20 @@ I've gone through the steps but it still doesn't work?
 > You might want to consider making use of the documentation below.
 
 * Documentation
-  * munki: https://github.com/munki/munki/wiki
-  * munkiadmin: https://github.com/hjuutilainen/munkiadmin
-  * munkiwebadmin (MWA1): https://github.com/munki/munkiwebadmin/wiki
-  * munkireport-php: https://github.com/munkireport/munkireport-php
-  * munki-enroll: https://github.com/edingc/munki-enroll
-  * autopkg: https://github.com/autopkg/autopkg
-  * autopkgr: https://github.com/lindegroup/autopkgr
+  * [munki](https://github.com/munki/munki/wiki)
+  * [munkiadmin](https://github.com/hjuutilainen/munkiadmin)
+  * [munkiwebadmin (MWA1)](https://github.com/munki/munkiwebadmin/wiki)
+  * [munkireport-php](https://github.com/munkireport/munkireport-php)
+  * [munki-enroll](https://github.com/edingc/munki-enroll)
+  * [autopkg](https://github.com/autopkg/autopkg)
+  * [autopkgr](https://github.com/lindegroup/autopkgr)
 
 * Latest Releases
-  * munki: https://github.com/munki/munki/releases
-  * munkiadmin: https://github.com/hjuutilainen/munkiadmin/releases/
-  * autopkg: https://github.com/autopkg/autopkg/releases/latest
-  * autopkgr: https://github.com/lindegroup/autopkgr/releases/latest
+  * [munki](https://github.com/munki/munki/releases)
+  * [munkiadmin](https://github.com/hjuutilainen/munkiadmin/releases/)
+  * [autopkg](https://github.com/autopkg/autopkg/releases/latest)
+  * [autopkgr](https://github.com/lindegroup/autopkgr/releases/latest)
 
 * Demo Setups
-  * munki: https://github.com/munki/munki/wiki/Demonstration-Setup
-  * munkireport-PHP: https://github.com/munkireport/munkireport-php/blob/master/docs/setup.md
+  * [munki](https://github.com/munki/munki/wiki/Demonstration-Setup)
+  * [munkireport-PHP](https://github.com/munkireport/munkireport-php/blob/master/docs/setup.md)
