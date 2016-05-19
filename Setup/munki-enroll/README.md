@@ -37,6 +37,6 @@ Including your nested manifest for munki-enroll
 
 EDIT
 > As we have a number of sub-domains we've made an alteration to the server side enroll.php script
-> that allows us to assign additional 'manifests' based on a machines sub-domain. For an educational
-> environment like our this proves to be quite handy. There's a _copy_ of the modified enroll.php file
-> in the munki-enroll scripts folder. 
+> that allows us to assign additional 'manifests' based on a machines sub-domain. For an environment
+> like ours this proves to be quite handy. There's a _copy_ of the modified enroll.php file
+> in the munki-enroll scripts folder.
