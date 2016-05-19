@@ -31,9 +31,7 @@ Including your nested manifest for munki-enroll
 > machines as standard. To add this as a 'included manifest' as part of my munki-enroll setup,
 > I did the following.
 
-  * 1. On your server, navigate to /munki_repo/munki-enroll
-  * 2. Open 'enroll.php' using your favorite editor
-  * 3. On line 44 (under 'Add Parent Manifest' comment): change '$identifier' to '<your-applications-manifest>'
+  * On line 44 (under 'Add Parent Manifest' comment): change '$identifier' to 'your-applications-manifest'
 
 > This has been working well for me and my client machines respond as expected.
 
